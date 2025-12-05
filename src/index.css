@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+
+  --font-sans: 'Inter', 'ui-sans-serif', 'system-ui', 'sans-serif';
+  --color-accent: var(--accent);
+}
+
+:root {
+  --accent: #6d28d9; 
+  --muted: #6b7280; 
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
